@@ -455,6 +455,17 @@ img {
   border-radius: 0.8rem;
   background: linear-gradient(135deg, #eef7ff, #f8fcff);
   border: 1px solid var(--border);
+  display: flex;
+  flex-direction: column;
+  gap: 0.5rem;
+  align-items: center;
+  text-align: center;
+}
+
+.division-coordinator div {
+  display: flex;
+  flex-direction: column;
+  gap: 0.25rem;
 }
 
 .division-coordinator span {
@@ -463,11 +474,11 @@ img {
   text-transform: uppercase;
   letter-spacing: 0.16em;
   color: var(--accent);
-  margin-bottom: 0.25rem;
 }
 
 .division-coordinator strong {
   color: var(--primary-dark);
+  font-size: 0.9rem;
 }
 
 .division-card span {
