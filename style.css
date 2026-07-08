@@ -391,14 +391,14 @@ img {
 
 .mind-icon,
 .division-icon {
-  width: 46px;
-  height: 46px;
+  width: 36px;
+  height: 36px;
   display: grid;
   place-items: center;
   border-radius: 50%;
   margin: 0 auto 0.75rem;
   background: linear-gradient(135deg, #e8f4ff, #d7ebff);
-  font-size: 1.2rem;
+  font-size: 1rem;
 }
 
 .mind-card h3,
@@ -500,9 +500,8 @@ img {
   grid-template-columns: repeat(3, minmax(0, 1fr));
   gap: 1rem;
   padding: 1rem 1.5rem;
-  max-width: 1200px;
-  margin: 0 auto 1rem;
-  border-radius: 1rem 1rem 0 0;
+  margin: 0 0 1rem;
+  border-radius: 0;
 }
 
 .footer h3 {
