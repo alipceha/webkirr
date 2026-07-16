@@ -250,7 +250,7 @@ img {
 
 .slide-track img {
   width: 25%;
-  height: 200px;
+  height: 210px;
   object-fit: cover;
   display: block;
   flex-shrink: 0;
